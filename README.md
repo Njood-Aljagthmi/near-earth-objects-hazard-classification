@@ -1,17 +1,17 @@
-# ☄️ Near-Earth Objects Hazard Classification
+#  Near-Earth Objects Hazard Classification
 
 A machine learning project that predicts whether a near-Earth object (asteroid) is **potentially hazardous** using NASA data covering **338,000+ close-approach records from 1910 to 2024**.
 
 > Built as part of the Data Science Fundamentals program – Microsoft Student Club EELU (Feb 2025).
 
-## 📊 Results
+##  Results
 
 | Metric | Score |
 |---|---|
 | Accuracy | **93%** |
 | ROC-AUC | **0.98** |
 
-## 🔍 Workflow
+##  Workflow
 
 1. **Data cleaning:** checked and removed missing values
 2. **Exploratory data analysis:**
@@ -26,11 +26,11 @@ A machine learning project that predicts whether a near-Earth object (asteroid) 
 4. **Modeling:** `RandomForestClassifier` (100 trees)
 5. **Evaluation:** accuracy, classification report, ROC curve and AUC
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 Python · Pandas · Matplotlib · Seaborn · Scikit-learn
 
-## 📁 Dataset
+## Dataset
 
 [NASA Nearest Earth Objects (1910–2024)](https://www.kaggle.com/datasets/ivansher/nasa-nearest-earth-objects-1910-2024) on Kaggle.
 Download the CSV and place it in a `data/` folder:
@@ -39,7 +39,7 @@ Download the CSV and place it in a `data/` folder:
 data/nearest-earth-objects(1910-2024).csv
 ```
 
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 pip install -r requirements.txt
